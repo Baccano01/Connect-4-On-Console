@@ -43,7 +43,7 @@ links: <a href = https://en.wikipedia.org/wiki/Object-oriented_programming> OOP 
        <li><a href=#load>Load a match</a></li>
        </ol>
 <li><a href=#requirement>Game Requirements</a></li>
-<li><a href=#license>License</a></li>
+       
 </ol>
 
 
