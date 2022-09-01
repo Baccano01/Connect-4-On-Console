@@ -219,26 +219,3 @@ the process of the parsing and the handling of the inputs is handled by this cla
 
 <h2><div id="requirements">Requirements:</div></h2><p><a href=#table>top</a></p>
 <p>The program needs the <code>savedMatches.ser</code>--the file doesn't necessarily need to have an extension of <code>.ser</code> it can just be simply a <code>.txt</code> file-- as a default file (although you can change it) to be able to serialize the saved states, or rather the matches of the game and then deserialize them after instantiating an object of the <code>ConnectFour</code> class that represents the game as a whole. If you delete this file or any other file that you specified during instantiation then the saved data of the serialized <code>SavedState</code> or <code>SavedMatches</code> will be lost. If you want to clear the data then you can just delete this file (you can also use the delete functionality of the game when trying to load a saved match) and when instantiating an object from <code>ConnectFour</code>, another file of the same name as the file specified in the constructor parameter will be automatically created. The file <code>savedMatches.ser</code> is the default file where to serialize matches of the game. It is found inside directory of the project.</p>
-
-<h2><div id="license">LICENSE</div></h2><p><a href=#table>top</a></p>
-MIT License
-
-Copyright (c) 2022 Jofeth Abello
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
