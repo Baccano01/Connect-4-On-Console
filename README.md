@@ -42,8 +42,7 @@ links: <a href = https://en.wikipedia.org/wiki/Object-oriented_programming> OOP 
        <li><a href=#exit>Exit the Game</a></li>
        <li><a href=#load>Load a match</a></li>
        </ol>
-<li><a href=#requirement>Game Requirements</a></li>
-       
+<li><a href=#requirements>Game Requirements</a></li>   
 </ol>
 
 
